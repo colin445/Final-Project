@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+       body{
+
+        background-color: rgb(30, 181, 232);
+        text-align: center;
+       }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Gallery</title>
+    <link rel="stylesheet" href="index_style.css">
+
+    <title>Video Gallery</title>
+
+    <style>
+        .video-gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+        }
+
+        .video-gallery video {
+            width: 100%;
+            height: 200px; /* Adjust the height as needed */
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .home{
+            width: 30%;
+            height: 30px;
+            background: lightskyblue;
+            font-size: 20px;
+            font-weight: 500;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: .2s;
+        }
+
+        .home:hover{
+            opacity: 0.8;
+        }
+
+    </style>
+</head>
+    <body>
+        <h1>Video Gallery</h1>
+        <a href="index.html"><input type="button" class="home" value="Home"></a>
+        <div class="gallery">
+            <div class="gallery-item">
+                <iframe width="420" height="345" src="https://www.youtube.com/embed/akSJjN8UIj0?si=VoKhxHUcDLKvxuFS" >
+                </iframe>
+                <iframe width="420" height="345" src="https://www.youtube.com/embed/qu4n-L5mwdk?si=QKviQX0B0tV4oPt1">
+                </iframe>
+                <iframe width="420" height="345" src="https://www.youtube.com/embed/7SzAOrtsDus?si=-E3JQG9mkTLybR83">
+                </iframe>
+                <iframe width="420" height="345" src="https://www.youtube.com/embed/teqk-UDPCrc?si=6rbPu7uxRewc6dci">
+                </iframe>
+                <iframe width="420" height="345" src="https://www.youtube.com/embed/Dk65Bq24OyQ?si=J-s9GWSS2o4pyjD0">
+                </iframe>
+                <iframe width="420" height="345" src="https://www.youtube.com/embed/NNaj3GGLM0Q?si=cFRSsVwA4q0nbq6_">
+                </iframe>
+                <iframe width="420" height="345" src="https://www.youtube.com/embed/g9_z_FmJuIo?si=4C_xvtj0wTW9StKB">
+                </iframe>
+                <iframe width="420" height="345" src="https://www.youtube.com/embed/iJZKYnw9Tfs?si=zEJxKj-OPgBpgtqU">
+                </iframe>
+                <iframe width="420" height="345" src="https://www.youtube.com/embed/dmKM-sn5EYE?si=dNp7QFUA3NUiUpo0">
+                </iframe>
+                <iframe width="420" height="345" src="https://www.youtube.com/embed/9XWs6g4zlCg?si=CZ_spOmn525LV-vd">
+                </iframe>
+                <iframe width="420" height="345" src="https://www.youtube.com/embed/1XElFSy_sxg?si=snUKV_kG_A7amqml">
+                </iframe>
+                <iframe width="420" height="345" src="https://www.youtube.com/embed/04Ch8DUrcvM?si=e4KfwzxIxm75Z89o">
+                </iframe>
+            </div>
+            <!-- Add more videos here -->
+        </div>
+</body>
+<body>
+    <div class="button">
+        <button type="button">Next Page</button>
+    </div>
+</body>
+
+    </html>

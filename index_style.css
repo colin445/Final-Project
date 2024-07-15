@@ -1,0 +1,111 @@
+#big_banner {
+    width: 80%;
+    height: auto;
+}
+
+
+#bannger-content {
+    padding-right: 20%;
+    padding-left: 30%;
+    padding-top: 5%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgb(61, 167, 233);
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+nav {
+    margin-top: 10px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+nav ul li a:hover {
+    color: #ffcc00; /* Change to your desired hover color */
+}
+#smaller_image{
+width: 300px;
+length:auto;
+}
+
+.Shooting-workout{
+    padding-left:10%;
+    padding-top:7%;
+}
+
+#tag-line {
+    text-align: center;
+}
+#sub-text{
+    text-align: center;
+}
+#smaller_image2, #smaller_image3 {
+    width: 300px;
+    height: auto;
+    padding-left: 1%;
+}
+
+.workouts {
+    display: inline-block;
+}
+.Contact1 {
+    text-align: center;
+}
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: lightblue;
+    padding: 20px;
+  }
+
+  .contact{
+    background-color: lightblue;
+  }
+
+  body{
+    background-color:lightblue;
+  }
